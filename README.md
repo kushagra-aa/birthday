@@ -8,8 +8,6 @@
 
 ## Made with:
 
----
-
 - **Languages Used:**<img align="center" src="./assets/Icons/HTML.svg" height="30" alt="HTML5"/>
   <img align="center" src="./assets/Icons/CSS.svg" height="30" alt="CSS3"/>
   <img align="center" src="./assets/Icons/JS.svg" height="30" alt="JavaScript"/>

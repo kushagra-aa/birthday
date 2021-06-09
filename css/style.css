@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0) !important;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 206, 146) !important;
+}
+.container {
+  height: 35rem;
+  padding: 2rem;
+}
+h1 {
+  margin-top: 1em !important;
+}
+.txt-type > .text {
+  position: relative;
+}
+.text::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 90%;
+  border-right: 0.1rem solid #fff;
+  animation: blink 0.3s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
