@@ -18,6 +18,6 @@
 
 - **Illustrations:** <img align="center" src="./assets/Icons/Illustrator.svg" height="30" alt="Adobe Illustrator"/>
 
-- **Coded On:** <img align="center" src="./assets/Icons/VsCode.svg" height="30" alt="VsCode"/>
+- **Coded On:** <img align="center" src="./assets/Icons/vscode.svg" height="30" alt="VsCode"/>
 
 - **Hosted On:** <img align="center" src="./assets/Icons/GitHub.svg" height="30" alt="GitHub"/>
