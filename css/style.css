@@ -1,28 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background: rgb(0, 0, 0) !important;
+  background: #000 !important;
+}
+.con {
+  background: url("https://images.unsplash.com/photo-1566674717261-e3b344428702?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=635&q=80") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-blend-mode: darken;
   width: 100vw;
-  height: 100vh;
+  height: 93vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: rgb(255, 206, 146) !important;
+  position: relative;
 }
-.container {
+.con::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100vw;
+  height: 93vh;
+  z-index: 1;
+}
+.con > .container {
   height: 35rem;
   padding: 2rem;
+  z-index: 2;
 }
 h1 {
   margin-top: 1em !important;
+  font-family: "Dancing Script", cursive;
 }
 .txt-type > .text {
   position: relative;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
 }
 .text::after {
   position: absolute;
@@ -33,11 +53,59 @@ h1 {
   animation: blink 0.3s ease-in-out infinite;
 }
 
+.h2 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: lighter !important;
+}
+footer > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.foot-icon > img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+footer > .text-center > a {
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+}
+footer > .text-center {
+  color: rgb(82, 82, 82) !important;
+}
+footer > .text-center > a,
+footer > .text-center {
+  font-family: "Open Sans", sans-serif !important;
+}
 @keyframes blink {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .con {
+    height: 90vh;
+  }
+  .con::after {
+    height: 90vh;
+  }
+  .container {
+    height: 25rem;
+  }
+  img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .page-footer > .container {
+    height: 3rem !important;
   }
 }
