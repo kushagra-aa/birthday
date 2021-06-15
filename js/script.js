@@ -1,5 +1,5 @@
 const wait = 3000;
-const text = ['Bobo Bhai', 'Doggy Bhai', 'Swastik Bhai'];
+const text = ['Happy Birthday Khushi!', 'Stay Blessed!!', 'Mazzey Krro!!!', 'Partyyyyyyyyyy!!!!!!!'];
 const Typer = function (txtElement, wait, text) {
     this.txtElement = txtElement;
     this.text = text;
