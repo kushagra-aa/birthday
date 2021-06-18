@@ -29,10 +29,10 @@ let submitHandler = (e) => {
 
         e.preventDefault();
         let name = document.getElementById('name').value;
-        page.innerHTML = wish;
-        wishing = true;
         localStorage.setItem("name", name);
         localStorage.setItem("wishing", wishing);
+        page.innerHTML = wish;
+        wishing = true;
     }
 }
 

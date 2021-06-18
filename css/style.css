@@ -10,9 +10,6 @@ body {
   height: 100vh;
 }
 
-#page {
-}
-
 /* form page style */
 .form-con {
   width: 100vw;
@@ -128,16 +125,18 @@ h1 {
   color: #000;
   background: rgb(255, 206, 146) !important;
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.8rem;
 }
 /* wish page style ends */
 
+/* footer styles */
 footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
 }
 footer > .container {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
