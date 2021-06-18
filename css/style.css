@@ -51,6 +51,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 2;
 }
 #name {
   background: #e9d4d2;
