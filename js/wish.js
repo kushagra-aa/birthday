@@ -3,7 +3,7 @@
 // wait time for typer
 const wait = 3000;
 // the text that will be displayed
-const text = [`Happy Birthday ${localStorage.getItem('name')}!`, 'Stay Blessed!!', 'Mazzey Krro!!!', 'Partyyyyyyyyyy!!!!!!!'];
+const text = [`Happy Birthday ${localStorage.getItem('name')}!`, 'Stay Blessed!!', 'Be Happy!!', 'Enjoy The Day', 'Stay Safe'];
 
 // typer function
 const Typer = function (txtElement, wait, text) {
@@ -66,6 +66,18 @@ const init = () => {
         const txtElement = document.querySelector('.txt-type');
         new Typer(txtElement, wait, text);
     }
+    h2Init();
 }
 
 window.addEventListener('load', init);
+
+//h2-wish para
+const paras = ['All the best to you in the year to come!', 'Keep spreading happiness arround you']
+
+
+h2Init = () => {
+    let h2 = document.getElementById('h2')
+
+    var random = Math.floor(Math.random() * paras.length) + 0
+    h2.innerHTML = `<h2>${paras[random]}<h2>`;
+}

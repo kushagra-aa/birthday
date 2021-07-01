@@ -5,6 +5,7 @@ const wish = `<div class="con">
 <h1>
 <span class="txt-type"></span>
 </h1>
+<span id="h2"></span>
 </div>
 <button class="new" onclick="neww()">new?</button>
 </div>`

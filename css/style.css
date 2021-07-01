@@ -112,7 +112,10 @@ h1 {
   border-right: 0.1rem solid #fff;
   animation: blink 0.3s ease-in-out infinite;
 }
-
+.h2 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: lighter !important;
+}
 .new {
   z-index: 4;
   font-family: "Open Sans", sans-serif !important;
