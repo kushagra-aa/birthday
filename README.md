@@ -6,6 +6,11 @@
 
 <!-- Sub-Tittle -->
 
+## ScreenShots
+![Takes The Name](https://user-images.githubusercontent.com/68841296/135996109-e9dd0ded-f2d5-4f62-bd33-fba3af7331c5.png)
+![Wishing](https://user-images.githubusercontent.com/68841296/135996057-dc0e8b1f-6718-40ec-a141-94cb56d903f4.png)
+
+
 ## Made with:
 
 - **Languages Used:**<img align="center" src="./assets/Icons/HTML.svg" height="30" alt="HTML5"/>
